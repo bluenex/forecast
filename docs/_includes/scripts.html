@@ -1,16 +1,21 @@
 <script>
+var salayaLoc = {
+  lat: 13.7947609,
+  long: 100.3233845
+}
+
 $(document).ready(function() {
-  getWeather();
+  getWeather(salayaLoc);
   var min = 10;
   setInterval(getWeather, min * 60 * 1000);
 
   var d = new Date();
   var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
-  function getWeather() {
+  function getWeather(location) {
     $.simpleWeather({
       woeid: '',
-      location: 'Chicago',
+      location: location.lat+','+location.long,
       unit: 'c',
       success: function(weather) {
 
