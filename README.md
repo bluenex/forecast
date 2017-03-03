@@ -1,6 +1,8 @@
-## Weather Forcast
+## Weather Forecast
 
-See Chicago weather forecast at [titipata.github.io/forecast](https://titipata.github.io/forecast/).
+- See Chicago weather forecast at [titipata.github.io/forecast](https://titipata.github.io/forecast/).
+- See Salaya weather forecast at [bluenex.github.io/forecast](https://bluenex.github.io/forecast/).
+
 To serve the site locally, run `jekyll serve` in `docs` folder.
 
 
@@ -9,7 +11,7 @@ To serve the site locally, run `jekyll serve` in `docs` folder.
 - Fork the repository
 - Change city by edit `location` in `docs/_includes/scripts.html`
 - Edit Github pages section in `Settings` to `master branch /docs` folder
-in order to publish your page on `<profile_name>.github.io/forecast>`
+in order to publish your page on `<profile_name>.github.io/forecast`
 
 <div align = 'left'>
   <img src="images/gh-pages.png" width="320" />
